@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <!-- Can't cross-structure merging -->
+        <!-- Keep the top-left data first -->
+        <caption><b>Math Degree</b></caption>
+
+            <tr>
+                <th>Name</th><!-- table head -->
+                <th>Degree</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td >Tom</td><!-- table data -->
+                <td>90</td>
+                <td>third</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>80</td>
+                <td rowspan="2">second</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td colspan="3">Good Job!</td>
+            </tr>
+    </table>
+</body>
+</html>
